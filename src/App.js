@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
 
+import React, { useState } from 'react';
+
+import TimelineEvents from './components/TimelineEvents/TimelineEvents';
+import timelineItems from './constants/timelineItems';
+
 function App() {
+  const [events, setEvents] = useState(timelineItems);
+  const handleUpdateEvent = (updatedEvent) => {
+    setEvents(events.map(event =>
+        event.id === updatedEvent.id ? updatedEvent : event
+    ));
+};
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TimelineEvents events={events} onUpdateEvent={handleUpdateEvent}/>
     </div>
   );
 }

@@ -1,0 +1,54 @@
+
+.timeline-line {
+    position: relative;
+    border-top: 3px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-point {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+  }
+
+  .timeline-point:first-child {
+    text-align: left;
+  }
+
+  .timeline-point:last-child {
+    text-align: right;
+  }
+  
+  .timeline-year {
+    font-size: 18px;
+    color: #333;
+    display: block;
+  }
+  
+  .timeline-date {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .timeline-point::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 10px;
+    background-color: #ccc;
+  }
+
+  .timeline-point:first-child::before {
+    left: 10px;
+  }
+
+  .timeline-point:last-child::before {
+    right: 10px;
+    left: initial;
+  }

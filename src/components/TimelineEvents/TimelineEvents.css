@@ -1,0 +1,28 @@
+
+.timeline-container {
+    position: relative;
+    width: 100%;
+}
+
+.timeline-lane {
+    position: relative;
+    height: 40px;
+    margin-bottom: 10px;
+}
+
+.timeline-event {
+    position: absolute;
+    height: 30px;
+    background-color: #039be4;
+    color: #fff;
+    border-radius: 20px 0px;
+    padding: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.timeline-event  input {
+    outline: none;
+    border: none;
+}

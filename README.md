@@ -1,12 +1,9 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
 
 ### `npm start`
+Before running run start, make sure you have installed the dependencies with `npm install`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
@@ -29,42 +26,26 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## About this proyect 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* How long you spent on the assignment.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This project took me approximately 5 hours, I did it in two stages, the first day 1 hour and a half and the last day more than 3 hours
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* What you like about your implementation.
 
-## Learn More
+What I like about my implementation is that it can organize the project in the best possible way and solve what was asked.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+* What you would change if you were going to do it again.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+If I had to do it again I would try to modularize the components more into smaller, reusable components. I would also create some custom Hooks to manage the logic and I would look into improving the responsive part of the project.
 
-### Code Splitting
+* How you made your design decisions. For example, if you looked at other timelines for inspiration, please note that.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To carry out the design, look for some references to take into account how to solve the problem.
 
-### Analyzing the Bundle Size
+* How you would test this if you had more time.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+I would test by performing unit tests on each of the components, ensuring that they render correctly and that the behavior of the events is as desired, using test libraries such as Jest.
+I would also do more exhaustive tests manually, generating my test matrix with different test data.
