@@ -102,7 +102,7 @@ const TimelineEvents = ({ events, onUpdateEvent, title="List of Events" }) => {
     }, []);
 
     return (
-        <div ref={containerRef}>
+        <div ref={containerRef} className='timelineEvent-container'>
             <div>
                 <h1>{title}</h1>
             </div>
